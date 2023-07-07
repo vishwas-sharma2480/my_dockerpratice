@@ -1,0 +1,29 @@
+docker run: Run a container from a Docker image. Example: docker run hello-world
+
+docker pull: Pull a Docker image from a registry. Example: docker pull ubuntu
+
+docker ps: List all running containers. Example: docker ps
+
+docker stop: Stop a running container. Example: docker stop container_name
+
+docker rm: Remove a container. Example: docker rm container_name
+
+docker images: List all available Docker images on your system. Example: docker images
+
+docker rmi: Remove a Docker image from your system. Example: docker rmi image_name
+
+docker logs: Display the logs of a container. Example: docker logs container_name
+
+docker exec: Run a command inside a running container. Example: docker exec -it container_name command
+
+docker build: Build a Docker image from a Dockerfile. Example: docker build -t image_name .
+
+docker-compose up: Start containers defined in a Docker Compose file. Example: docker-compose up
+
+docker-compose down: Stop and remove containers defined in a Docker Compose file. Example: docker-compose down
+
+docker network ls: List Docker networks. Example: docker network ls
+
+docker volume ls: List Docker volumes. Example: docker volume ls
+
+docker stats: Display resource usage statistics of running containers. Example: docker stats
